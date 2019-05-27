@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_shangsheng</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="用户分析05" transform="translate(-747.000000, -372.000000)" fill-rule="nonzero" fill="#48A621">
+            <g id="Group-16" transform="translate(217.000000, 211.000000)">
+                <g id="Group-8" transform="translate(300.000000, 0.000000)">
+                    <g id="Group-13">
+                        <g id="Group-11" transform="translate(180.000000, 61.000000)">
+                            <path d="M54.7147495,100.139098 C54.8693988,99.9633467 55.1230762,99.9633467 55.2776754,100.139098 L59.9073547,105.414309 C60.0620441,105.59009 59.9944188,105.734499 59.7560922,105.734499 L58.0252204,105.734499 C57.7868537,105.734499 57.5924749,105.924309 57.5924749,106.157014 L57.5924749,109.537385 C57.5924749,109.77004 57.3981263,109.9599 57.1597495,109.9599 L52.8326653,109.9599 C52.5942786,109.9599 52.3998497,109.77005 52.3998497,109.537385 L52.3998497,106.157004 C52.3998497,105.924289 52.2055411,105.734499 51.9671643,105.734499 L50.2363026,105.734499 C49.9980461,105.734499 49.9302806,105.59007 50.0850401,105.414289 L54.7147495,100.139098 Z" id="ic_shangsheng"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

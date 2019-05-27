@@ -1,0 +1,336 @@
+leftNavWidth = 170px
+
+body
+  background #fff
+  font-size 13px
+body::-webkit-scrollbar
+    display none
+h1
+h2
+h3
+h4
+h5
+h6
+  font-weight normal
+
+a
+  color #1890ff
+  cursor pointer
+  text-decoration none
+  &:focus
+    text-decoration none
+  &:hover
+    text-decoration none
+    color #8888e2
+
+//custom layout
+#container
+.contain
+.contain-docs-main
+  height 100%
+  min-height 700px
+
+#main-header
+  color #fff
+  background colorMain
+  position relative
+  z-index 45
+  height 48px
+  line-height: 48px
+  box-shadow 0 1px 2px 1px rgba(0,0,0,0.15)
+  absolute
+    height 48px
+    line-height: 46px
+  .logo-wrap
+    width 120px
+    margin-left 16px
+  .logo-img
+    height 24px
+    margin-top -7px
+  .logo-text
+    color #eee
+    font-weight: bold
+  .mg10r
+    margin-right 10px
+
+.header-menu-item
+  color: #504762 !important
+
+.top-menus
+  margin-left 16px
+.top-menu
+  display: inline-block
+  cursor: pointer
+  font-size: 14px
+  padding: 0 14px
+  height 48px
+  line-height: 46px
+  margin-right: 1px
+  color #fff
+  text-decoration none
+  &:hover
+    color #ddd
+    text-decoration none
+  &.active
+    color #fff
+    text-decoration none
+    border-bottom 3px solid #fff
+
+.user-link
+  background: colorMain
+  margin-right 30px
+  color #fff
+  cursor: pointer
+  height: 48px
+  line-height: 46px
+  border-bottom 3px solid colorMain
+  &:hover
+    color #ddd
+
+.project-select-menu
+  .ant-select-selection-selected-value
+    color colorMain
+
+.nav-bar
+  border-bottom 1px solid #e4e4e4
+  padding 0 32px 0 32px
+  height 44px
+  line-height 44px
+  font-size 14px
+  background #f7f7f7
+
+.pdy12
+  padding-bottom: 11px
+  padding-top: 14px
+.compact-icon-wrap
+  color #ddd
+  &:hover
+    color #eee
+
+.contain
+  position relative
+  min-width 1160px
+  overflow-y: hidden
+
+.copy-right-footer
+  position: absolute
+  bottom: 5px
+  left: 0
+  right: 0
+  color #eee
+  height 48px
+  line-height: 24px
+  text-align:  center
+.compact .copy-right-footer
+  display: none
+
+.contain-docs-nav
+  position absolute
+  left 0
+  top 48px
+  width leftNavWidth
+  bottom 0
+  background #3a404e
+  z-index 100
+  transition all 0.5s
+  box-shadow 0 0 1px 1px rgba(0,0,0,.1)
+  ::-webkit-scrollbar
+    display: none
+
+.aside-menu
+  display: block
+  padding: 12px 16px
+  position: relative
+  color #b7bdd3
+  border-left 3px solid #3a404e
+  &:hover
+    background: #292f3f
+    border-left 3px solid #292f3f
+    color #fffdfe
+  &.active
+    background: #51576d
+    color #fffdfe
+    border-left 3px solid colorMain
+  &.depth-2
+    padding 8px 16px 8px 42px
+  &.depth-3
+    padding 8px 16px 8px 52px
+  &.depth-4
+    padding 8px 16px 8px 62px
+
+.compact
+  .aside-menu
+    &.depth-2, &.depth-3, &.depth-4
+      display none
+
+.aside-menu-icon
+  display: inline-block
+  margin-right 10px
+
+.header-menu-grouplabel
+  white-space: nowrap
+  color: #999
+  .header-menu-txt
+    padding: 7px 11px
+    font-size: 14px
+
+.aside-menus-grouplabel
+  position: relative
+  margin-bottom: 2px
+  font-size 14px
+  color: #8891b8
+  .aside-menu-txt
+    display: block
+    padding: 15px 11px 8px
+
+#main-content
+  height calc(100% - 48px)
+
+.contain-docs-main
+  position relative
+  margin-left leftNavWidth
+  transition all 0.5s
+
+.contain-docs-analytic
+  background #e4eaef
+  
+.compact
+  .contain-docs-main
+    margin-left 54px
+  .contain-docs-nav
+    width 54px
+  .aside-menu-txt
+    display: none
+  .aside-menu-icon
+    width 22px
+    text-align: center
+    font-size 16px
+
+.hide-left-menu
+  .contain-docs-main
+    margin-left 0
+  .contain-docs-nav
+    width 0
+    overflow: hidden
+  .compact-icon-wrap
+    display: none
+
+#pivot
+  width 100%
+  height calc(100% - 50px)
+
+.charts-box
+  height 100%
+  min-height: 200px
+  padding: 15px
+
+.hide-scrollbar-y
+  -ms-overflow-style none
+  &::-webkit-scrollbar
+    width 0px
+
+.hide-all-scrollbar-y
+  &::-webkit-scrollbar, & ::-webkit-scrollbar
+    width 0px
+
+.chart-wrapper
+  background #fff
+  .ant-table
+    margin-left 5px
+  ::-webkit-scrollbar
+      width 0
+      height 0
+  .overscroll
+    ::-webkit-scrollbar
+      width 0
+      height 4px
+    
+.chart-title
+  font-size 13px
+  color #777
+  padding 0 0 10px 0
+
+.scroll-content
+  overflow-y auto
+  height calc(100% - 44px)
+
+.right-content-bg
+  background #e4eaef
+
+.scroll-content-100
+  overflow-y auto
+  height 100%
+
+.cascader-select
+  margin 0 -5px
+
+.cascader-select .select
+  padding 5px
+  box-sizing border-box
+
+.datasource
+  .ant-table-row-expand-icon
+    display none
+
+
+//单图大图标展示
+.icon-slice
+  line-height 342px
+  height 342px
+  text-align center
+  font-size 120px
+
+//总是显示滚动条
+
+.always-display-scrollbar
+  &::-webkit-scrollbar
+    width 7px
+    height 0
+  &::-webkit-scrollbar-thumb
+    border-radius 7px
+    background-color rgba(0, 0, 0, .3)
+
+.always-display-scrollbar-horizontal
+  &::-webkit-scrollbar
+    width 0px
+    height 4px
+  &::-webkit-scrollbar-thumb
+    border-radius 4px
+    background-color rgba(0, 0, 0, .3)
+
+.always-display-scrollbar-horizontal-all
+  ::-webkit-scrollbar
+    width 0px
+    height 7px
+  ::-webkit-scrollbar-thumb
+    border-radius 4px
+    background-color rgba(0, 0, 0, .3)
+  &.wider-bar
+    ::-webkit-scrollbar
+      height 14px
+
+@require './tag'
+
+.always-display-scrollbar-horizontal-all.fix-table-head-issue
+  .ant-table-fixed-header
+    .ant-table-pagination
+      margin 10px 0 0 0 !important
+      float right
+    .ant-table-header
+      padding-bottom 13px !important
+      margin-bottom -20px !important
+
+.always-display-scrollbar-horizontal-all.fix-table-head-issue.wider-bar
+  .ant-table-fixed-header
+    .ant-table-pagination
+      margin 10px 0 0 0 !important
+      float right
+    .ant-table-header
+      padding-bottom 6px !important
+      margin-bottom -20px !important
+
+.ant-btn>.sugoicon+span, .ant-btn>span+.sugoicon
+  margin-left .5em
+
+.filter-setting-popover
+  padding-top 1px

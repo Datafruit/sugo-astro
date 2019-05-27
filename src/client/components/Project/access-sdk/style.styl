@@ -1,0 +1,66 @@
+.access-sdk
+  .content
+    position relative
+  .access-item
+    padding 10px
+    background #fff
+    border-radius 3px
+    .icon-active,
+    .icon-normal
+      margin-right 2px
+    .active-text
+      color #1890ff
+    &:hover
+      box-shadow 0 3px 8px #d9d9d9
+    &.active
+      background #f6f8fa
+      border-top-color colorMain
+      border-top-width 3px
+      .fleft
+        font-weight bold
+    .title
+      color rgba(0, 0, 0, 0.65)
+      margin-bottom 4px
+      line-height 22px
+    .desc
+      color rgba(0, 0, 0, 0.45)
+      line-height 22px
+
+  .content-left
+    position absolute
+    left 0
+    top 0
+    width 380px
+    height 100%
+    z-index 2
+  .content-right
+    padding-left 380px
+  .access-item:not(:last-child)
+    margin-bottom 16px
+
+  .access-label
+    line-height 24px
+  .access-token
+    line-height 36px
+
+// utils
+.vertical-align-middle
+  vertical-align middle
+
+.icon-active,
+.icon-normal
+  display inline-block
+  vertical-align middle
+  width 6px
+  height 6px
+  border-radius 3px
+
+.icon-normal
+  background-color #999
+
+.icon-active
+  background-color colorGreen
+
+.markdown-docs-wrap
+  div
+   line-height 1.6

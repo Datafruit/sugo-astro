@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="127px" height="114px" viewBox="0 0 127 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_03</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 137 137 137 137 0 0 0"></polygon>
+    </defs>
+    <g id="引导页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="引导页01" transform="translate(-1446.000000, -540.000000)">
+            <g id="ic_03" transform="translate(1441.000000, 518.000000)">
+                <polygon id="Fill-3" fill="#FFFFFF" points="85.625 134.859375 51.375 134.859375 55.65625 113.453125 81.34375 113.453125"></polygon>
+                <path d="M130.578125,29.96875 C130.578125,26.4217344 127.701125,23.546875 124.15625,23.546875 L12.84375,23.546875 C9.298875,23.546875 6.421875,26.4217344 6.421875,29.96875 L6.421875,107.03125 C6.421875,110.578266 9.298875,113.453125 12.84375,113.453125 L124.15625,113.453125 C127.701125,113.453125 130.578125,110.578266 130.578125,107.03125 L130.578125,29.96875 Z" id="Fill-5" fill="#FFFFFF"></path>
+                <path d="M130.578125,29.96875 C130.578125,26.4217344 127.701125,23.546875 124.15625,23.546875 L12.84375,23.546875 C9.298875,23.546875 6.421875,26.4217344 6.421875,29.96875 L6.421875,107.03125 C6.421875,110.578266 9.298875,113.453125 12.84375,113.453125 L124.15625,113.453125 C127.701125,113.453125 130.578125,110.578266 130.578125,107.03125 L130.578125,29.96875 Z" id="Stroke-7" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M81.34375,113.453125 L85.625,134.859375" id="Stroke-9" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M51.375,134.859375 L55.65625,113.453125" id="Stroke-11" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M40.671875,134.859375 L96.328125,134.859375" id="Stroke-13" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M6.421875,96.328125 L130.578125,96.328125" id="Stroke-15" stroke="#4D5152" stroke-width="2"></path>
+                <path d="M66.359375,104.890625 L70.640625,104.890625" id="Stroke-17" stroke="#4D5152" stroke-width="2"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-20"></g>
+                <polygon id="Fill-19" fill="#D3AEFF" mask="url(#mask-2)" points="12.84375 89.90625 124.15625 89.90625 124.15625 29.96875 12.84375 29.96875"></polygon>
+                <path d="M21.40625,42.8125 C37.0970312,42.8125 37.0970312,59.9375 52.7878125,59.9375 C68.4892969,59.9375 68.4892969,42.8125 84.1907812,42.8125 C99.8922656,42.8125 99.8922656,59.9375 115.59375,59.9375" id="Stroke-21" stroke="#4D5152" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M36.390625,77.0625 L36.390625,62.078125" id="Stroke-22" stroke="#4D5152" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M49.234375,77.0625 L49.234375,70.640625" id="Stroke-23" stroke="#4D5152" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M62.078125,77.0625 L62.078125,68.5" id="Stroke-24" stroke="#4D5152" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M74.921875,77.0625 L74.921875,57.796875" id="Stroke-25" stroke="#4D5152" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M87.765625,77.0625 L87.765625,53.515625" id="Stroke-26" stroke="#4D5152" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <path d="M100.609375,77.0625 L100.609375,64.21875" id="Stroke-27" stroke="#4D5152" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                <polyline id="Stroke-28" stroke="#4D5152" stroke-width="2" stroke-linejoin="round" mask="url(#mask-2)" points="23.546875 53.515625 23.546875 77.0625 113.453125 77.0625 113.453125 70.640625"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

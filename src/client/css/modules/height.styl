@@ -1,0 +1,33 @@
+.hscroll
+  overflow-y scroll
+
+.hhide
+  overflow-y hidden
+
+for $height in 20 24 25 30 32 36 40 42 50 55 60 70 80 100 120 140 160 200 240 300 500 550 800
+  .height{$height}
+    height ($height)px !important
+
+for $height in 24 25 30 32 40 42 50 60 80 100 120 140 160 200 500 600 700 800
+  .min-height{$height}
+    min-height ($height)px !important
+
+for $height in 10 20 25 30 40 50 60 70 80 90 100
+  .height-{$height}
+    height ($height)% !important
+
+for $height in 100 200 300 500 1000
+  .maxh{$height}
+    max-height ($height)px
+
+.min-height-100
+  height 1px
+  min-height 100%
+
+for $lineHeight in 14 18 20 22 24 25 26 28 29 30 32 33 34 36 38 40 41 42 44 45 50 60 80 100 120 200 300
+  .line-height{$lineHeight}
+    line-height ($lineHeight)px !important
+
+for $lineHeight in 10 20 30 40 50 60 70 80 90 100
+  .line-height-{$lineHeight}
+    line-height ($lineHeight)% !important

@@ -1,0 +1,330 @@
+//*
+for $layer in 4 10 100 999
+  .zIndex{$layer}
+    z-index ($layer)
+
+for $i, $index in 5 16 32 48
+  
+  //padding
+  .pd{$index+1}
+    padding ($i)px
+    
+  .pd{$index+1}x
+    padding-left ($i)px
+    padding-right ($i)px
+
+  .pd{$index+1}l
+    padding-left ($i)px
+  
+  .pd{$index+1}r
+    padding-right ($i)px
+    
+  .pd{$index+1}y
+    padding-top ($i)px
+    padding-bottom ($i)px
+
+  .pd{$index+1}t
+    padding-top ($i)px
+  
+  .pd{$index+1}b
+    padding-bottom ($i)px
+
+  //margin
+  .mg{$index+1}
+    margin ($i)px
+    
+  .mg{$index+1}x
+    margin-left ($i)px
+    margin-right ($i)px
+
+  .mg{$index+1}l
+    margin-left ($i)px
+  
+  .mg{$index+1}r
+    margin-right ($i)px
+    
+  .mg{$index+1}y
+    margin-top ($i)px
+    margin-bottom ($i)px
+
+  .mg{$index+1}t
+    margin-top ($i)px
+
+  .mg{$index+1}b
+    margin-bottom ($i)px
+
+  .top{$index+1}
+    top ($i)px
+  .bottom{$index+1}
+    bottom ($i)px
+  .left{$index+1}
+    left ($i)px
+  .right{$index+1}
+    right ($i)px
+
+.mg-auto
+  margin-left auto
+  margin-right auto
+.mg0
+  margin 0
+.pd0
+  padding 0
+  
+.block
+  display block
+
+.inline
+  display inline-block
+
+.iblock
+  display inline-block
+  vertical-align middle
+
+.ibblock
+  display inline-block
+  vertical-align baseline
+  
+.itblock
+  display inline-block
+  vertical-align top
+
+.itblock-force
+  display inline-block !important
+  vertical-align top !important
+
+.itbblock-force
+  display inline-block !important
+  vertical-align text-bottom !important
+
+.iblock-force
+  display inline-block
+  vertical-align middle !important
+
+.finline
+  display inline-block !important
+
+.border
+  border 1px solid #e4e4e4
+
+.border-eee
+  border 1px solid #eeeeee
+
+.borderl
+  border-left 1px solid #e4e4e4
+
+.borderr
+  border-right 1px solid #e4e4e4
+
+.borderb
+  border-bottom 1px solid #e4e4e4
+  &.dashed
+    border-bottom 1px dashed #e4e4e4
+
+.borderr
+  border-right 1px solid #e4e4e4
+
+.bordert
+  border-top 1px solid #e4e4e4
+  &.dashed
+    border-top 1px dashed #e4e4e4
+
+.borderr
+  border-right 1px solid #e4e4e4
+
+.borderl
+  border-left 1px solid #e4e4e4
+
+.border-dashed
+  border 1px dashed #000
+.border-dotted
+  border 1px dotted #ddd
+
+.hide,
+.hide1, 
+.hide2
+  display none
+
+.force-hide
+  display none !important
+
+.hidden
+  visibility hidden
+
+.corner
+  border-radius 3px
+
+.cornert
+  border-top-left-radius 3px
+  border-top-right-radius 3px
+
+.cornerb
+  border-bottom-left-radius 3px
+  border-bottom-right-radius 3px
+
+.radius
+  border-radius 3px
+
+.fleft
+  float left
+
+.fright
+  float right
+
+.fcenter
+  float center
+
+.fix:before,
+.fix:after
+  content " "
+  display table
+
+.fix
+  &:after
+    clear both
+    
+.overhide
+  overflow hidden
+
+.overscroll
+  overflow scroll
+
+.overscroll-y
+  overflow-y scroll
+
+.reset-scroll-bar
+  &::-webkit-scrollbar
+    width 7px
+    height 4px
+
+.reset-all-scroll-bar
+  ::-webkit-scrollbar
+    width 7px
+    height 4px
+
+.relative
+  position relative
+
+.absolute
+  position absolute
+
+.static
+  position static
+
+.fpointer
+  cursor pointer !important
+
+.pointer
+  cursor pointer
+  // color #1890ff
+  // &:hover
+  //   color #333
+//absoluteCenter
+.a-center
+  margin auto
+  top 0
+  bottom 0
+  left 0
+  right 0
+
+
+.disabled
+  cursor not-allowed !important
+
+.rotate-left-90
+  transform rotate(-90deg)
+.rotate-right-90
+  transform rotate(90deg)
+
+
+.hover-display-trigger
+  .hover-display, .hover-display-iblock
+    display none
+  &:hover
+    .hover-hide
+      display none
+    .hover-display
+      display block
+    .hover-display-iblock
+      display inline-block
+
+.hover-blur-trigger
+  .hover-blur
+    opacity 1
+  &:hover
+    .hover-blur, .hover-blur-5
+      opacity 0.5
+    .hover-blur-3
+      opacity 0.3
+    .hover-blur-7
+      opacity 0.7
+  &.hover-blur:hover, &.hover-blur-5:hover
+    opacity 0.5
+  &.hover-blur-3:hover
+    opacity 0.3
+  &.hover-blur-7:hover
+    opacity 0.7
+
+.btn-disabled-style
+  color #ccc
+  background-color #f7f7f7
+  border-color #d9d9d9
+
+.center-of-relative
+  position absolute
+  top 50%
+  left 50%
+  transform translate(-50%, -50%)
+
+.vertical-center-of-relative
+  position absolute
+  top 50%
+  transform translate(0%, -50%)
+
+.left0
+  left 0
+
+.right0
+  right 0
+
+.top0
+  top 0
+
+.bottom0
+  bottom 0
+
+.opacity50
+  opacity .5
+
+.opacity70
+  opacity .7
+
+// 解决 span 被 position: absolute 覆盖问题 https://www.w3cplus.com/css/what-no-one-told-you-about-z-index.html
+.opacity99
+  opacity .999999
+
+.ignore-mouse
+  pointer-events none
+
+.noselect
+  user-select none
+
+.shadowb-eee
+  box-shadow 0 2px 5px #eee
+  &.until-hover
+    box-shadow 0 0 0 #eee
+  &.until-hover:hover
+    box-shadow 0 2px 5px #eee
+
+.shadow15-bbb
+  box-shadow 0 0 15px #bbb
+  &.until-hover
+    box-shadow 0 0 0 #bbb
+  &.until-hover:hover
+    box-shadow 0 0 15px #bbb
+
+.shadow15-ddd
+  box-shadow 0 0 15px #ddd
+  &.until-hover
+    box-shadow 0 0 0 #ddd
+  &.until-hover:hover
+    box-shadow 0 0 15px #ddd

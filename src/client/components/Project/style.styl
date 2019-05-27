@@ -1,0 +1,64 @@
+.access-type-item
+  width 120px
+  height 120px
+  border 1px solid #efefef
+  display inline-block
+  margin 0 10px 10px 0
+  padding 10px
+  text-align center
+  cursor pointer
+  background-color #fff
+  position relative
+
+  &:hover
+    border-color transparent
+  &.active
+    border-color colorGreen
+    box-shadow none
+  .on-active
+    position absolute
+    right 0
+    bottom 0
+    width 16px
+    height 16px
+
+
+.access-icon-box
+  padding-top 10px
+  font-size 30px
+
+.access-text-box
+  padding-top 2px
+
+.sugo-project
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td
+    text-align center
+
+tr
+  .proj-control-icon
+    opacity: 0
+  &:hover .proj-control-icon
+    opacity: 1
+
+.project-supervisor-modal
+  .tabTitle
+    margin-right 10px
+  .ant-modal-body
+    padding 0 20px
+    .ant-tabs-content
+      margin-bottom 20px
+    .ant-row
+      margin-top 20px
+      .ant-btn
+        margin-right 20px
+    .attention
+      margin 20px 0 0
+      color #cc0000
+.ant-form-item-label label:after
+  content '' !important
+  margin 0
+.create-project-sdk-form > .ant-form-item
+  margin-bottom 0 !important
+.create-project-sdk-form
+  margin-bottom 24px
